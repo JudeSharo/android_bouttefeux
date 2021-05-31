@@ -17,7 +17,7 @@
         android:id="@+id/Main_ET1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entrez un texte"
+
         />
     <Button
         android:id="@+id/Main_BT1"
@@ -25,6 +25,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:text="Merci POGO"
+        android:text="Contact"
         />
+    <Button
+        android:id="@+id/Main_BT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Chantier"
+        />
+
 </LinearLayout>
