@@ -15,4 +15,55 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Main"/>
+
+    <TextView
+        android:id="@+id/titreContact"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Entreprise Yohan Bouttefeux"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/numeroTelephone"
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_height="34dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Numéro téléphone : 06.26.50.69.46"/>
+    <TextView
+        android:id="@+id/adresseMail"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_height="34dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Mail : yohan.bouttefeux@hotmail.fr"/>
+    <TextView
+        android:id="@+id/Adresse"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_height="34dp"
+        android:textAlignment="center"
+        android:text="Adresse : 38 rue de Momignies, 59186 Anor"/>
+    <TextView
+        android:id="@+id/lienFacebook"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_height="34dp"
+        android:textAlignment="center"
+        android:text="Lien Facebook"/>
 </LinearLayout>
